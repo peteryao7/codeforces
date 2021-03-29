@@ -7,7 +7,9 @@ public class Solution {
      * 248 ms / 3800 KB
      * 
      * Implementation exercise. Use a Team class to keep track of each team's
-     * name, points, and number of goals made and lost. 
+     * name, points, and number of goals made and lost.
+     * 
+     * TC/SC - O(nlog(n))/O(n) for n = number of teams
      */
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
