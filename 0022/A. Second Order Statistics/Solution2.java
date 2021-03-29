@@ -1,6 +1,17 @@
 import java.util.*;
 
 public class Solution2 {
+    /*
+     * https://codeforces.com/problemset/problem/22/A
+     * 
+     * 280 ms / 0 KB
+     * 
+     * Three pass - The first pass puts every element into an array. The second
+     * pass finds the minimum of the array. The third finds the second smallest
+     * distinct element of the array using the min.
+     * 
+     * TC/SC - O(n)/O(n)
+     */
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
