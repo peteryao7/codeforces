@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class Solution1 {
     /*
      * https://codeforces.com/problemset/problem/22/A
      * 
