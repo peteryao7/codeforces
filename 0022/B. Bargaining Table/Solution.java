@@ -10,7 +10,7 @@ public class Solution {
      * from it. Go right and down until you hit a '1', then get the perimeter
      * of that table by subtracting the start coordinates from the end.
      * 
-     * TC/SC - O((nm)^3)
+     * TC/SC - O((nm)^3)/O(nm)
      */
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
