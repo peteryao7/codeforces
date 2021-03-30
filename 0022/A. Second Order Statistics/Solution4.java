@@ -7,7 +7,8 @@ public class Solution4 {
      * 280 ms / 0 KB
      * 
      * Max Heap
-     * 
+     * Using a max heap allows us to keep a heap of size 2, so we don't need
+     * to put every distinct value into the heap.
      * 
      * TC/SC - O(nlog(k))/O(k)
      */
