@@ -11,7 +11,7 @@ public class Solution {
      * search. Because we only want the max length, we can stop looking once 
      * we find that a substring occurs twice.
      * 
-     * TC/SC - O(n^2)/O(n) for n = length of input
+     * TC/SC - O(n^3)/O(n) for n = length of input
      */
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
