@@ -1,6 +1,17 @@
 import java.util.*;
 
 public class Solution {
+    /*
+     * https://codeforces.com/contest/33/problem/A
+     * 
+     * 434 ms / 0 KB
+     * 
+     * Use a map to store the minimum number of crucians that can be eaten for
+     * each row of teeth. Then add up every value for each row and check
+     * whether it's larger than k.
+     * 
+     * TC/SC - O(n)/O(m)
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(), m = sc.nextInt(), k = sc.nextInt();
