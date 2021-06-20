@@ -15,7 +15,7 @@ public class Solution {
      * 
      * For instance, in this example:
      * [-4, -3, -2, -1, 1, 2, 3, 4]
-     * If the prefix ends at index 6 and the suffix starts at index 2, then
+     * If the prefix ends at index 6 and the suffix starts at index 1, then
      * the array looks like this:
      * [4, -3, -2, -1, 1, 2, 3, -4]
      * which is the same as inversing the first and last elements.
